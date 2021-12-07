@@ -1,4 +1,4 @@
-package com.zln.javaguide.concurrenthashmap02.controller01;
+package com.zln.javaguide.demo2.controller01;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

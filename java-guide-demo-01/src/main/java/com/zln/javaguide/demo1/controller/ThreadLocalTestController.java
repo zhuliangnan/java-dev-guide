@@ -1,4 +1,4 @@
-package com.zln.javaguide.threadlocal01.controller;
+package com.zln.javaguide.demo1.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
