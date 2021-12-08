@@ -6,6 +6,7 @@
     <modules>
         <module>java-guide-demo-01</module>
         <module>java-guide-demo-02</module>
+        <module>java-guide-demo-03</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -26,7 +27,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>29.0-jre</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jodd/jodd-core -->
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-core</artifactId>
+            <version>5.0.13</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
