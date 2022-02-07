@@ -7,6 +7,8 @@
         <module>java-guide-demo-01</module>
         <module>java-guide-demo-02</module>
         <module>java-guide-demo-03</module>
+        <module>java-guide-demo-04</module>
+        <module>java-guide-demo-05</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -37,6 +39,26 @@
             <groupId>org.jodd</groupId>
             <artifactId>jodd-core</artifactId>
             <version>5.0.13</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.1.4.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>fluent-hc</artifactId>
+            <version>4.5.9</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
